@@ -14962,6 +14962,20 @@ video {
   transition-delay: 1000ms;
 }
 
+/*My own utilities*/
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.zoom {
+  transform: scale(2);
+}
+
+.hover\:zoom:hover {
+  transform: scale(2);
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
@@ -29300,6 +29314,10 @@ video {
 
   .sm\:delay-1000 {
     transition-delay: 1000ms;
+  }
+
+  .sm\:rotate-45 {
+    transform: rotate(45deg);
   }
 }
 
@@ -43642,6 +43660,10 @@ video {
   .md\:delay-1000 {
     transition-delay: 1000ms;
   }
+
+  .md\:rotate-45 {
+    transform: rotate(45deg);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -57983,6 +58005,10 @@ video {
   .lg\:delay-1000 {
     transition-delay: 1000ms;
   }
+
+  .lg\:rotate-45 {
+    transform: rotate(45deg);
+  }
 }
 
 @media (min-width: 1280px) {
@@ -72323,5 +72349,9 @@ video {
 
   .xl\:delay-1000 {
     transition-delay: 1000ms;
+  }
+
+  .xl\:rotate-45 {
+    transform: rotate(45deg);
   }
 }
